@@ -32,15 +32,11 @@
         <position>user1</position>
         <position>nav</position>
         <position>user2</position>
-
         <position>user3</position>
-
         <position>header</position>
-
         <position>left</position>
-
-        <position>right</position>
-
+        <position>social</position>
+        <position>down</position>
         <position>footer</position>
 
 

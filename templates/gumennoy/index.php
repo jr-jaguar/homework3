@@ -63,9 +63,15 @@ $app = JFactory::getApplication();
         <jdoc:include type="message" />
         <jdoc:include type="component" style="xhtml" />
     </div> <!--конец блока контента-->
-    <?php if($this->countModules('right')) : ?>
-        <div id="rigth">
-            <jdoc:include type="modules" name="right" style="xhtml" />
+    <?php if($this->countModules('social')) : ?>
+        <div id="social">
+            <jdoc:include type="modules" name="social" style="..." />
+        </div>
+    <?php endif; ?>
+    <?php if($this->countModules('down')) : ?>
+        <div id="down">
+            <jdoc:include type="modules" name="down" style="xhtml" />
+            <li style="float: right;">© Copyright 2011</li>
         </div>
     <?php endif; ?>
     <?php if($this->countModules('footer')) : ?>
